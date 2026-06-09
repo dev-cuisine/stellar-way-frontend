@@ -1,15 +1,12 @@
-
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev# 🌟 Stellar Way — E-Commerce & Delivery Platform
+#  Stellar Way — E-Commerce & Delivery Platform
 
 A full-featured e-commerce and delivery management platform built with **Next.js 16**, featuring real-time order tracking, live rider messaging, rider application management, and a comprehensive admin dashboard.
+
+---
+
+##  Description
+
+Stellar Way is a full-stack delivery platform connecting customers, riders, and admins in real time. Customers place and track orders on a live map, riders manage deliveries and chat with customers, and admins oversee everything through a powerful dashboard — all powered by Socket.IO and built with Next.js 16.
 
 ---
 
@@ -38,7 +35,59 @@ A full-featured e-commerce and delivery management platform built with **Next.js
 
 ---
 
-## Tech Stack
+##  Live URL
+
+> [https://stellar-way-coral.vercel.app](https://stellar-way-coral.vercel.app)
+
+---
+
+## 🔑 Credentials
+
+| Role | Email | Password |
+|---|---|---|
+| Customer | `imam@gmail.com` | `123456` |
+| Rider | `imam1@gmail.com` | `123456` |
+
+
+
+---
+
+##  Installation & Setup
+
+### Prerequisites
+
+- **Node.js** v18+
+- **npm** / yarn / pnpm / bun
+
+### Steps
+
+```bash
+git clone https://github.com/dev-cuisine/stellar-way-frontend
+cd stellar-way-frontend
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+##  Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```env
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+
+NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
+NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
+```
+
+
+---
+
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -58,130 +107,6 @@ A full-featured e-commerce and delivery management platform built with **Next.js
 
 ---
 
-##  Getting Started
-
-### Prerequisites
-
-- **Node.js** v18+
-- **npm** / yarn / pnpm / bun
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/stellar-way.git
-cd stellar-way
-npm install
-```
-
-### Environment Variables
-
-Create a `.env.local` file in the project root:
-
-```env
-# App
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your_nextauth_secret
-
-# Database
-DATABASE_URL=your_database_url
-
-# Socket / Backend API
-NEXT_PUBLIC_API_URL=http://localhost:5000
-NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
-```
-
-### Run Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-##  Project Structure
-
-```
-stellar-way/
-├── app/                    # Next.js App Router pages
-│   ├── (auth)/             # Login, Register
-│   ├── (customer)/         # Customer-facing pages
-│   ├── (rider)/            # Rider portal
-│   └── admin/              # Admin dashboard
-├── components/             # Reusable UI components
-├── lib/                    # Utility functions, API clients
-├── hooks/                  # Custom React hooks
-├── types/                  # TypeScript type definitions
-└── public/                 # Static assets
-```
-
----
-
-##  Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
-
----
-
-##  Real-Time Features
-
-Real-time communication is powered by **Socket.IO**. The following events are handled live:
-
-- Order status updates
-- Rider location tracking on map
-- Customer ↔ Rider messaging
-- New order notifications for admins
-
-Make sure your backend Socket.IO server is running and the `NEXT_PUBLIC_SOCKET_URL` is set correctly.
-
----
-
-##  Map & Tracking
-
-Order tracking uses **Leaflet** with **React Leaflet** to display:
-
-- Rider's live location
-- Pickup and delivery points
-- Route visualization
-
----
-
-##  Deployment
-
-### Deploy on Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-1. Push your repository to GitHub
-2. Import the project on [Vercel](https://vercel.com)
-3. Add all environment variables in the Vercel dashboard
-4. Deploy
-
-### Manual Build
-
-```bash
-npm run build
-npm run start
-```
-
----
-
-##  Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
 ##  License
 
 This project is private and proprietary. All rights reserved.
@@ -189,29 +114,3 @@ This project is private and proprietary. All rights reserved.
 ---
 
 > Built with  using [Next.js](https://nextjs.org)
-
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
