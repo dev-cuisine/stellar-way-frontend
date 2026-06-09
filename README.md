@@ -47,6 +47,7 @@ Stellar Way is a full-stack delivery platform connecting customers, riders, and 
 |---|---|---|
 | Customer | `imam@gmail.com` | `123456` |
 | Rider | `imam1@gmail.com` | `123456` |
+| Admin | `imam30@gmail.com`| `234567`|
 
 
 
