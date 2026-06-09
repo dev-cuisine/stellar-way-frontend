@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 
 ## Getting Started
 
@@ -13,23 +13,23 @@ A full-featured e-commerce and delivery management platform built with **Next.js
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👤 Customer
+###  Customer
 - Browse products and place orders
 - Real-time order tracking with live map view
 - Live chat with assigned delivery rider
 - Order history and status updates
 - QR code support for orders
 
-### 🛵 Rider
+###  Rider
 - Apply to become a delivery rider
 - Accept and manage assigned deliveries
 - Real-time location sharing
 - In-app messaging with customers
 - Delivery history and earnings overview
 
-### 🛡️ Admin
+###  Admin
 - Full order management dashboard
 - Rider application review & approval
 - User and rider account management
@@ -38,7 +38,7 @@ A full-featured e-commerce and delivery management platform built with **Next.js
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -58,7 +58,7 @@ A full-featured e-commerce and delivery management platform built with **Next.js
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 stellar-way/
@@ -118,7 +118,7 @@ stellar-way/
 
 ---
 
-## 📜 Available Scripts
+##  Available Scripts
 
 | Command | Description |
 |---|---|
@@ -129,7 +129,7 @@ stellar-way/
 
 ---
 
-## 🔌 Real-Time Features
+##  Real-Time Features
 
 Real-time communication is powered by **Socket.IO**. The following events are handled live:
 
@@ -142,7 +142,7 @@ Make sure your backend Socket.IO server is running and the `NEXT_PUBLIC_SOCKET_U
 
 ---
 
-## 🗺️ Map & Tracking
+##  Map & Tracking
 
 Order tracking uses **Leaflet** with **React Leaflet** to display:
 
@@ -152,7 +152,7 @@ Order tracking uses **Leaflet** with **React Leaflet** to display:
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Deploy on Vercel (Recommended)
 
@@ -172,7 +172,7 @@ npm run start
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/your-feature`
@@ -182,13 +182,13 @@ npm run start
 
 ---
 
-## 📄 License
+##  License
 
 This project is private and proprietary. All rights reserved.
 
 ---
 
-> Built with ❤️ using [Next.js](https://nextjs.org)
+> Built with  using [Next.js](https://nextjs.org)
 
 pnpm dev
 # or
